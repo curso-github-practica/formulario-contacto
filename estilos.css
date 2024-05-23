@@ -1,11 +1,11 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
-    font-family: "Arial", sans-serif;
+body {
+    font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     display: flex;
     justify-content: center;
@@ -13,8 +13,8 @@ body{
     height: 100vh;
 }
 
-.container{
-    background: #ffffff;
+.container {
+    background: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -22,23 +22,23 @@ body{
     width: 100%;
 }
 
-h1{
+h1 {
     text-align: center;
     margin-bottom: 20px;
 }
 
-.form-group{
+.form-group {
     margin-bottom: 15px;
 }
 
-.form-group label{
+.form-group label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
 .form-group input,
-.form-group textarea{
+.form-group textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -46,7 +46,7 @@ h1{
     font-size: 16px;
 }
 
-button{
+button {
     width: 100%;
     padding: 10px;
     background-color: #5cb85c;
@@ -57,16 +57,16 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     background-color: #4cae4c;
 }
 
-.success-message{
+.success-message {
     display: none;
     margin-top: 20px;
     padding: 10px;
     background-color: #dff0d8;
-    color: #f3763d;
+    color: #3c763d;
     border: 1px solid #d6e9c6;
     border-radius: 5px;
     text-align: center;
